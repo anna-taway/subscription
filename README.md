@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Inline docs](http://inch-ci.org/github/JananyMano/subscription.svg?branch=master)](http://inch-ci.org/github/JananyMano/subscription)
+
 ## End-to-end Test with Cypress
 
 ![](userflow.spec.js.gif)

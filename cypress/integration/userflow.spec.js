@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 describe("User flow test", () => {
     
-    it("Quick overview of Cypress", () => {
+    it("Test user filling the form to suscribe", () => {
         
         // Visit path "/"
         cy.visit('/');

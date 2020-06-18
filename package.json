@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "e2e": "cypress open"
+    "e2e": "cypress open",
+    "record": "cypress run --record --key a5aca3ef-0e9a-42ec-a631-2e2b878f5c18"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,4 +1,6 @@
 # Welcome on Subscription
+[![HitCount](http://hits.dwyl.com/JananyMano/subscription.svg)](http://hits.dwyl.com/JananyMano/subscription)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

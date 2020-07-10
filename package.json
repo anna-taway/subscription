@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.18.1",
+    "jest-coverage-badges": "^1.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
@@ -19,9 +20,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage --watchAll=false",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges",
+    "make-badges": "node_modules/.bin/jest-badges-readme",
+    "coverage": "test -- --coverage",
     "eject": "react-scripts eject",
     "e2e": "cypress open",
     "record": "cypress run --record --key a5aca3ef-0e9a-42ec-a631-2e2b878f5c18"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text-summary",
+      "json-summary",
+      "text",
+      "lcov"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@olavoparno/jest-badges-readme": "^1.5.1",
     "cypress": "^4.4.1",
     "react-test-renderer": "^16.13.1"
   }

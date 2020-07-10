@@ -1,10 +1,6 @@
 # Welcome on Subscription
-[![HitCount](http://hits.dwyl.com/JananyMano/subscription.svg)](http://hits.dwyl.com/JananyMano/subscription)
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-[![Inline docs](http://inch-ci.org/github/JananyMano/subscription.svg?branch=master)](http://inch-ci.org/github/JananyMano/subscription)
 
 ## End-to-end Test with Cypress
 
@@ -99,3 +95,4 @@ I use React.createContext to define a default context.
 I need to use Context.Provider from the component that should update the context according to user's actions. And all the children components use Context.Consumer to use that context value.
 
 
+[![HitCount](http://hits.dwyl.com/JananyMano/subscription.svg)](http://hits.dwyl.com/JananyMano/subscription)
